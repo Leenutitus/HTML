@@ -1,0 +1,191 @@
+body,h2,h4,h5,p.pre{
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+     background-image: url('../OMEGA_AUDIO/background.jpg');
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+
+}
+
+header a{
+    text-decoration: none;
+    color:rgba(245, 245, 245, 0.787);
+    min-width: 120px;
+    
+}
+button a{
+    text-decoration: none;r
+}
+header{
+    display: flex;
+}
+#logo{
+    flex: 3;
+    font-size: 1.6em;
+    padding: 1em;
+    min-width:260px;
+}
+nav{
+    flex: 2;
+    font-size: 1.2em;
+    display: flex;
+    padding: 1em;
+    
+}
+nav a{
+    flex: 1;
+}
+nav a:hover{
+    color:coral;
+    
+}
+.maintext{
+    display: flex;
+    color:rgb(246, 250, 232);
+    flex-direction: column;
+    justify-content: center;
+
+    padding: rem;
+    margin: 2rem;
+}
+.maintext button {
+    background-color:coral;
+    color: black;
+    width: 20%;
+    height: 6vh;
+    border-radius: 10px;
+    margin-top: 2em;
+    padding: .7em;
+    border: 1px solid coral;
+}
+button a{
+    color: black;
+    
+}
+
+.tagline1{
+    color:whitesmoker;
+    font-weight: bolder;
+    font-size: 2.5em;
+
+}
+.tagline2{
+    color:whitesmoke;
+    font-weight: bolder;
+    margin-top: .7em;
+
+}
+
+.Packages{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    background: linear-gradient(to right,rgb(7, 7, 15),rgb(128, 128, 128, 0.846));
+    color:whitesmoke;
+    
+}
+#packageheading{
+    background: linear-gradient(to right,rgb(7, 7, 15),rgb(128, 128, 128, 0.846));
+    font-size: 2.5em;
+    color:rgb(227, 27, 27);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.Packages th{
+    color:rgb(255, 166, 0);
+    font-size: 1.5em;
+}
+table{
+    width: 100%;
+    padding: 1EM;
+}
+.Packages tr{
+    display: flex;
+    justify-content:left;
+    margin-top: .8em;
+}
+
+.locations{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    background: linear-gradient(to right,rgb(7, 7, 15),rgb(128, 128, 128, 0.846));
+    color: whitesmoke;
+}
+.disclaimer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    background: linear-gradient(to right,rgb(7, 7, 15),rgb(128, 128, 128, 0.846));
+    color: whitesmoke;
+    padding-bottom: 0%;
+  
+}
+
+.para{
+    margin-top: 10px;
+    padding-top:10px;
+}
+.para_1{
+    margin-top: 100px;
+    padding-top:105px;
+    color:rgb(255, 166, 0);
+    font-weight: bolder;
+}
+.para_2{
+    margin-top: 300px;
+    padding-top:149px;
+    color:rgb(255, 166, 0);
+    font-weight: bolder;
+}
+.para_3{
+    margin-top: 300px;
+    padding-top:79px;
+    color:rgb(255, 166, 0);
+    font-weight: bolder;
+}
+.blank{
+    background: linear-gradient(to right,rgb(7, 7, 15),rgb(128, 128, 128, 0.846));
+}
+#locheading{
+    padding-left: 20px;
+    margin-top: 70px;
+    color:rgb(255, 166, 0);
+    
+}
+#i{
+    padding-left: 20px;
+    margin-top: 70px;
+    color:rgb(255, 166, 0);
+}
+#p{
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.disclaimer #o,li{
+    padding-top:30px;
+    margin-top: 2px;
+    padding-left: 0px;
+}
+.disclaimer #o{
+    color:rgb(255, 166, 0);
+    font-weight: bolder;
+    list-style-type: none;
+    
+    
+}
+.disclaimer #u{
+    color:rgb(255, 166, 0);
+    font-weight: bolder;
+    list-style-type: none;
+}
+.disclaimer #y{
+    color:rgb(255, 166, 0);
+    font-weight: bolder;
+    list-style-type: none;
+}
+.disclaimer .a{
+    list-style-type: none;
+}
